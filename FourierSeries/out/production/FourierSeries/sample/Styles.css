@@ -1,0 +1,43 @@
+.root{
+    -fx-font-size: 16pt;
+    -fx-font-family: "Courier New";
+    -fx-base: rgb(132, 145, 47);
+    -fx-background:#fbe3e8
+
+}
+.button {
+-fx-background-radius: 6px;
+-fx-padding :16px 32px;
+-fx-text-align: center;
+-fx-display: inline-block;
+-fx-font-size: 16px;
+-fx-margin: 4px 2px;
+-fx-transition-duration: 0.4s;
+-fx-cursor: pointer;
+-fx-text-decoration: none;
+-fx-text-transform: uppercase;
+-fx-color: black;
+-fx-border: none;
+-fx-background: transparent;
+ -fx-text-fill: white;
+    -fx-font-family: "Palatino";
+    -fx-font-weight: bold;
+    -fx-background-color: #8458B3;
+}
+.button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+
+.chart-legend {
+   -fx-background-color:#8458B3;
+   -fx-padding: 20px;
+   -fx-text-color: white
+}
+
+.chart-legend-item-symbol{
+   -fx-background-radius: 0;
+}
+
+.chart-legend-item{
+    -fx-text-fill: white;
+}
